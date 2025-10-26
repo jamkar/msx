@@ -1,13 +1,16 @@
 {
     "type": "pages",
     "headline": "Media Station X",
-    "start": "page:content",
+    "start": "content:http://lampa.mx",
+    "template": {
+        "type": "separate",
+        "layout": "0,0,2,4"
+    },
     "pages": [
         {
-            "id": "content",
             "items": [
                 {
-                    "type": "launch",
+                    "title": "Lampa",
                     "action": "content:http://lampa.mx"
                 }
             ]
