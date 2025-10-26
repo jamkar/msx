@@ -1,7 +1,7 @@
 {
   "name": "Lampa.MX",
   "version": "1.0",
-  "parameter": "menu:https://jamkar.github.io/msx/start.json",
+  "parameter": "content:http://lampa.mx",
   "settings": {
     "menu": false
   },
