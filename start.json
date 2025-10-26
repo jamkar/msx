@@ -1,19 +1,12 @@
 {
-  "name": "Lampa.MX",
-  "type": "pages",
-  "headline": "Lampa Media Station",
-  "version": "1.0.0",
-  "parameter": "content:https://jamkar.github.io/msx/start.json",
-  "pages": [
-    {
-      "type": "web",
-      "title": "LAMPA",
-      "url": "http://lampa.mx",
-      "timeout": 10000,
-      "onerror": {
-        "action": "reload",
-        "delay": 5000
-      }
-    }
-  ]
+    "type": "pages",
+    "pages": [
+        {
+            "items": [
+                {
+                    "action": "content:http://lampa.mx"
+                }
+            ]
+        }
+    ]
 }
