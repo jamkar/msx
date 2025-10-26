@@ -1,19 +1,7 @@
 {
-    "type": "pages",
-    "headline": "Media Station X",
-    "start": "content:http://lampa.mx",
-    "template": {
-        "type": "separate",
-        "layout": "0,0,2,4"
-    },
-    "pages": [
-        {
-            "items": [
-                {
-                    "title": "Lampa",
-                    "action": "content:http://lampa.mx"
-                }
-            ]
-        }
-    ]
+  "name": "Lampa.MX",
+  "type": "pages",
+  "headline": "Lampa Media Station",
+  "version": "1.0.0",
+  "parameter": "menu:https://jamkar.github.io/msx/data/menu.json",
 }
