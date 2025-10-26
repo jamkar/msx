@@ -1,26 +1,19 @@
 {
   "name": "Lampa.MX",
-  "type": "list",
+  "type": "pages",
   "headline": "Lampa Media Station",
   "version": "1.0.0",
   "parameter": "content:https://jamkar.github.io/msx/start.json",
-  "action": "[settings:validate_links:0|home]",
-  "dictionary": "http://lampa.mx/msx/lang/ru.json",
-  "template": {
-    "type": "separate",
-    "layout": "0,0,2,3",
-    "color": "msx-glass"
-  },
-  "items": [
+  "pages": [
     {
-      "title": "Lampa",
-      "image": "http://lampa.mx/msx-logo.png",
-      "action": "link:http://lampa.mx"
-    },
-    {
-      "title": "Lampa LITE",
-      "image": "http://lite.lampa.mx/msx-logo.png",
-      "action": "link:http://lite.lampa.mx"
+      "type": "web",
+      "title": "LAMPA",
+      "url": "http://lampa.mx",
+      "timeout": 10000,
+      "onerror": {
+        "action": "reload",
+        "delay": 5000
+      }
     }
   ]
 }
