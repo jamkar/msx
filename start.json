@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "settings": {
+    "menu": false
+  },
+  "pages": [
+    {
+      "type": "web",
+      "title": "LAMPA",
+      "url": "http://lampa.mx",
+      "timeout": 10000,
+      "onerror": {
+        "action": "reload",
+        "delay": 5000
+      }
+    }
+  ]
+}
