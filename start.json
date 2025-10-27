@@ -1,7 +1,22 @@
 {
-  "name": "Lampa.MX",
-  "type": "pages",
-  "headline": "Lampa Media Station",
-  "version": "1.0.0",
-  "parameter": "menu:https://jamkar.github.io/msx/data/menu.json"
+    "type": "pages",
+    "headline": "Videos",
+    "template": {      
+        "type": "separate",
+        "layout": "0,0,2,4",
+        "icon": "msx-white-soft:movie",
+        "color": "msx-glass"
+    },
+    "items": [{
+            "focus": true,
+            "execute": true,
+            "title": "Video 1",
+            "action": "video:http://msx.benzac.de/media/video1.mp4"
+        }, {
+            "title": "Video 2",
+            "action": "video:http://msx.benzac.de/media/video2.mp4"
+        }, {
+            "title": "Video 3",
+            "action": "video:http://msx.benzac.de/media/video3.mp4"
+        }]
 }
