@@ -1,22 +1,38 @@
 {
-    "type": "pages",
-    "headline": "Videos",
-    "template": {      
-        "type": "separate",
-        "layout": "0,0,2,4",
-        "icon": "msx-white-soft:movie",
-        "color": "msx-glass"
-    },
-    "items": [{
-            "focus": true,
-            "execute": true,
-            "title": "Video 1",
-            "action": "link:http://lampa.mx/"
-        }, {
-            "title": "Video 2",
-            "action": "video:http://msx.benzac.de/media/video2.mp4"
-        }, {
-            "title": "Video 3",
-            "action": "video:http://msx.benzac.de/media/video3.mp4"
-        }]
+  "name": "Lampa.MX",
+  "type": "list",
+  "headline": "Lampa Media Station",
+  "version": "1.0.0",
+  "parameter": "content:http://lampa.mx/msx/start.json",
+  "action": "[settings:validate_links:0|home]",
+  "dictionary": "http://lampa.mx/msx/lang/ru.json",
+   "template": {
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
+   "items": [
+      {
+         "focus": true,
+         "execute": true,
+         "title":"Lampa",
+         "image": "http://lampa.mx/msx-logo.png",
+         "action": "link:http://lampa.mx"
+      },
+	    {
+         "title":"Lampa LITE",
+         "image": "http://lite.lampa.mx/msx-logo.png",
+         "action": "link:http://lite.lampa.mx"
+      },
+      {
+         "title":"OTTplayer",
+         "image": "http://msx.noname.h1n.ru/msx/img/ottplayer.jpg",
+         "action": "link:http://widget.ottplayer.es"
+      },
+      {
+         "title":"Speedtest",
+         "image": "http://msx.noname.h1n.ru/msx/img/test.png",
+         "action": "link:http://openspeedtest.com/Get-widget.php?Auto=3"
+      }
+   ]
 }
