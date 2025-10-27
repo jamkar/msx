@@ -14,12 +14,10 @@
          "focus": true,
          "execute": true,
          "title":"Lampa",
-         "image": "http://lampa.mx/msx-logo.png",
          "action": "link:http://lampa.mx"
       },
 	  {
          "title":"Lampa LITE",
-         "image": "http://lite.lampa.mx/msx-logo.png",
          "action": "link:http://lite.lampa.mx"
       }
    ]
