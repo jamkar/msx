@@ -4,6 +4,11 @@
   "headline": "Lampa Media Station",
   "version": "1.0.0",
   "parameter": "content:https://jamkar.github.io/msx/start.json",
+  "template": {
+      "type": "separate",
+      "layout": "0,0,2,3",
+      "color": "msx-glass"
+   },
    "items": [
       {
          "focus": true,
