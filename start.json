@@ -4,7 +4,6 @@
   "headline": "Lampa Media Station",
   "version": "1.0.0",
   "parameter": "content:https://jamkar.github.io/msx/start.json",
-  "action": "[settings:validate_links:0|home]",
   "dictionary": "http://lampa.mx/msx/lang/ru.json",
    "template": {
         "type": "separate",
