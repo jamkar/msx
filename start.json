@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "parameter": "content:https://jamkar.github.io/msx/start.json",
   "dictionary": "http://lampa.mx/msx/lang/ru.json",
-   "template": {
-        "type": "separate",
+  "template": {
+      "type": "separate",
       "layout": "0,0,2,3",
       "color": "msx-glass"
    },
@@ -22,16 +22,6 @@
          "title":"Lampa LITE",
          "image": "http://lite.lampa.mx/msx-logo.png",
          "action": "link:http://lite.lampa.mx"
-      },
-      {
-         "title":"OTTplayer",
-         "image": "http://msx.noname.h1n.ru/msx/img/ottplayer.jpg",
-         "action": "link:http://widget.ottplayer.es"
-      },
-      {
-         "title":"Speedtest",
-         "image": "http://msx.noname.h1n.ru/msx/img/test.png",
-         "action": "link:http://openspeedtest.com/Get-widget.php?Auto=3"
       }
    ]
 }
