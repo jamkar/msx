@@ -4,20 +4,17 @@
   "headline": "Lampa Media Station",
   "version": "1.0.0",
   "parameter": "content:https://jamkar.github.io/msx/start.json",
-  "template": {
-      "type": "separate",
-      "layout": "0,0,2,3",
-      "color": "msx-glass"
-   },
    "items": [
       {
          "focus": true,
          "execute": true,
          "title":"Lampa",
+         "image": "http://lampa.mx/msx-logo.png",
          "action": "link:http://lampa.mx"
       },
 	  {
          "title":"Lampa LITE",
+         "image": "http://lite.lampa.mx/msx-logo.png",
          "action": "link:http://lite.lampa.mx"
       }
    ]
