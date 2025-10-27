@@ -1,11 +1,8 @@
 {
   "name": "Lampa.MX",
-  "type": "list",
+  "type": "pages",
   "headline": "Lampa Media Station",
   "version": "1.0.0",
-  "parameter": "content:http://lampa.mx/msx/start.json",
-  "action": "[settings:validate_links:0|home]",
-  "dictionary": "http://lampa.mx/msx/lang/ru.json",
    "template": {
       "type": "separate",
       "layout": "0,0,2,3",
@@ -18,7 +15,7 @@
          "image": "http://lampa.mx/msx-logo.png",
          "action": "link:http://lampa.mx"
       },
-	    {
+	  {
          "title":"Lampa LITE",
          "image": "http://lite.lampa.mx/msx-logo.png",
          "action": "link:http://lite.lampa.mx"
